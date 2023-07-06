@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu-containar {
+  background-color: rgb(123, 118, 137);
+  color: white;
+  padding: 15px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-photo {
+  width: 150px;
+  padding-left: 50px;
+}
+.menus {
+  display: flex;
+}
+.item {
+  margin: 15px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: progress;
+}
+.item:hover {
+  color: rgb(250, 7, 7);
+}
+.banner-containar {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  color: white;
+  align-items: center;
+  background-image: url("./images/background.png"),
+    linear-gradient(55deg, rgb(4, 4, 4), rgb(73, 73, 93));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-img {
+  width: 350px;
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+}
+.description {
+  font-size: 20px;
+  margin: 15px 0px 15px 0px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 10px;
+}
+.about-us {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 45px;
+}
